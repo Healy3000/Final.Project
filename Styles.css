@@ -1,31 +1,42 @@
 
 ul {
-    list-style-type: none;
+
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
 	display: inline-block;
 	list-style-type: none;
+
+
 }
 
-ul {
-    display: inline-block;
-    list-style-type: none;
+
+
+li {
+    float: left;
+
 }
 
-li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+
+a {
+    display: block;
+    padding: 10px;
+    background-color: black;
+	color: white;
+		
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+a:hover {
+    background-color: grey;
 }
+
+/* keep the navbar from being unlined */
+a:link {
+    text-decoration: none;
+}
+
 
 * {box-sizing:border-box}
 body {font-family: Verdana,sans-serif;margin:0}
