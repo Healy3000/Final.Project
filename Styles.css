@@ -6,7 +6,7 @@ body {
 	
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
 	color: white;
 	
 	}
@@ -46,8 +46,12 @@ a {
 	color: white;
 		
 }
+.container:hover .text{
+	
+	
+}
 
-/* Change the link color to #111 (black) on hover */
+/* Change the link color when hovering */
 a:hover {
     background-color: grey;
 }
