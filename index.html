@@ -1,8 +1,11 @@
 <html>
-
-<title> The Monkees - Index  </title>
 <head>
+    <base href="/"> <!-- needed for Angular HTML 5 mode -->
+<title> The Monkees - Index  </title>
+
 <link rel="stylesheet" href="styles.css">
+ <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
 
 </head>
 <body>
@@ -15,7 +18,7 @@
       <li><a href="Photo.html">Photo</a></li>
     </ul>
     <ul class="nav navbar-nav ">
-      <li><a href="#"><span class="user"></span> Sign Up</a></li>
+      <li><a href="/accounts/register"><span class="user"></span> Sign Up</a></li>
       <li><a href="#"><span class="log-in"></span> Login</a></li>
     </ul>
   </div>
