@@ -1,4 +1,4 @@
-<html>
+<html ng-app="firstApp">
 
 <title> The Monkees - Photo  </title>
 <head>
@@ -8,86 +8,92 @@
 
 </head>
 <body>
-
-		<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
  
-    <ul class="nav navbar-nav">
+<nav class = "navBar">
+	<div class = "navBar">
+    <ul>
+      <li style="float:left"> <a href="index.html">Home </a></li>
+      <li style="float:left"><a href="Band.html">Band	</a></li>
+      <li style="float:left"><a href="Photo.html">Photo </a></li>
+      <li style="float:left"><a href="Signup.html"> Sign Up</a></li>
       
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a href="Video.html">Video	</a></li>
-      <li><a href="Photo.html">Photo</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="/accounts/register"><span class="user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="log-in"></span> Login</a></li>
     </ul>
   </div>
 </nav>
+<h1> <center> Albums </center></h1>
+	 <div id="content" class ="box"> 
+<div class="row">
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="Images/cover.jpg">
+        <img src="Images/cover.jpg" alt="The Best of The Monkees" style="width:250px; height:250px;">
+        <div class="caption">
+          <p>The Best of The Monkees</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="Images/cover2.jpg">
+        <img src="Images/cover2.jpg" alt="Good Times!" style="width:250px; height:250px;">
+        <div class="caption">
+          <p>Good Times!</p>
+        </div>
+      </a>
+    </div>
 
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-   <h2><u> The Greatest Hits</u></h2>
-  <img src="Images/cover.jpg" style="width:304px;height:228px;">
-
+  </div>
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="Images/cover1.jpg">
+        <img src="Images/cover1.jpg" alt="Head" style="width:250px; height:250px;">
+        <div class="caption">
+          <p>Head</p>
+        </div>
+      </a>
+    </div>
+  </div>
   
-</div>
-
-<div class="mySlides fade">
-  <h2><u> The Boy's Are Back </u></h2>
-  <img src="Images/cover1.jpg" style="width:304px;height:228px;">
+  </div>
+  </div>
+  <h1> <center> Upcoming Albums </center></h1> <br>
   
-</div>
+ 	 <div id="content" class ="box"> 
+<div class="row">
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="Images/cover.jpg">
+        <img src="Images/album.jpg" alt="Monkees 1970" style="width:250px; height:250px;">
+        <div class="caption">
+          <p>The Late Monkees 1970</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="Images/album2.jpg">
+        <img src="Images/album2.jpg" alt="1960's" style="width:250px; height:250px;">
+        <div class="caption">
+          <p>Bring the 60s back!</p>
+        </div>
+      </a>
+    </div>
 
-<div class="mySlides fade">
-	<h2><u>New Wonder </u></h2>
-  <img src="Images/cover3.jpg" style="width:304px;height:228px;">
-
-</div>
-
-<div class="mySlides fade">
-	<h2><u>Christmas Hits </u></h2>
-  <img src="Images/monkees.jpg" style="width:304px;height:228px;">
-
-</div>
-<br>
-<a class="prev" onclick="plusSlides(-1)"><</a>
-<a class="next" onclick="plusSlides(1)">></a>
-
-</div>
-<br>
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-<script src='js/app.js'></script>
-<script src='js/controller.js'></script>
-<script src='js/service.js'></script>
+  </div>
+  <div class="col-md-3">
+    <div class="thumbnail">
+      <a href="Images/cover3.jpg">
+        <img src="Images/cover3.jpg" alt="London" style="width:250px; height:250px;">
+        <div class="caption">
+          <p>London, Baby</p>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+  </div>
+  </div>
 </body>
 </html> 

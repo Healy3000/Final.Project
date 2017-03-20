@@ -1,0 +1,99 @@
+<html data-ng-app="">
+<head>
+    
+<title> The Monkees - Bookings </title>
+
+<link rel="stylesheet" href="styles.css">
+ <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+
+</head>
+<body >
+	 
+ <nav class = "navBar">
+	<div class = "navBar">
+    <ul>
+      <li> <a href="index.html">Home </a></li>
+      <li><a href="Band.html">Band	</a></li>
+      <li><a href="Photo.html">Photo </a></li>
+      <li><a href="Signup.html"> Bookings</a></li>
+      
+    </ul>
+  </div>
+</nav>
+	
+	<nav style="float:right">
+   
+				<img src="Images/head4.jpg" style = "width: 100px; height: 80px;" >
+				<img src="Images/head.jpg" style = "width: 100px; height: 80px;" > 
+				<img src="Images/head3.jpg" style = "width: 100px; height: 80px;" >
+				<img src="Images/head2.jpg" style = "width: 100px; height: 80px;" >
+      </nav> 
+	  
+	  <h1> Booking</h1>
+<form name="myForm" action="/action_page_post.php" onsubmit="return validateForm()" method="post" class="wText">
+	  <div class="container">
+	  
+			  <label><b> First Name</b></label>
+			<input type="text" placeholder="Enter Name" name="fName" required>
+			
+			 <label><b> Last Name</b></label>
+			<input type="text" placeholder="Enter Name" name="Lname" required>
+			
+			<label><b>Email</b></label>
+			<input type="text" placeholder="Enter Email" name="email" required>
+
+		  Date of Birthday :
+		   <input id="date" name="date" type="date" />
+		   
+		   	<nav class="wText">
+
+			  <input type="radio" name="city" value="London"> London - 24th April 2017<br>
+			  <input type="radio" name="city" value="London" checked>London - 31st March 2017<br>
+			   <input type="radio" name="city" value="Paris" checked>Paris - 30th May 2017<br>
+				<input type="radio" name="city" value="Paris" checked>Paris - 1st June 2017<br>
+				 <input type="radio" name="city" value="Dublin" checked>Dublin - 8th October 2017<br>
+				  <input type="radio" name="city" value="Dublin" checked>Dublin - 10th October 2017<br>
+				
+			
+				<h4> Please tick at least on Adult </h4>
+			  
+			    <input type="checkbox" name="Person" value="Adult" id="Adult"> 1 Adult <br>
+			  <input type="checkbox" name="Person" value="Kids" id="Kids">1 Children<br>
+			  
+			  	
+			  <input type="submit" value="Submit" onclick="alert('Thank you for your booking!')">
+			  <input type="reset" value="clear this form" />
+			  </nav>
+</form>
+			<p> *Must be over 18 to enquire</p>
+
+	  
+		<p>By creating an account you agree to our, Terms & Privacy</a>.</p>
+
+		<div class="clearfix">
+		
+		<script>
+		function myFunction() {
+    var x = document.getElementById("Adult").checked;
+
+}
+		
+		</script>
+		
+		
+	<button onclick="a href='/index.html'">Continue</button>
+    </div>
+  </div>
+</form>	
+
+
+
+	
+	<script src="Scripts/angular.min.js"></script>
+
+		
+		<body>
+
+
+</html>
