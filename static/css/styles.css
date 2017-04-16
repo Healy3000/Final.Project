@@ -1,5 +1,3 @@
-
-
 #content {
 			-webkit-box-sizing: border-box;
 			-moz-box-sizing: border-box;
@@ -12,31 +10,26 @@
 			border: solid 5px #FFFFFF;
 			border-radius: 1px;
 		}
+		
 body {
- background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(left,rgba(255,0,0,1),rgba(255,165,0,1));
-  background: -o-linear-gradient(right,rgba(255,0,0,1),rgba(255,165,0,1)); 
-  background: -moz-linear-gradient(right,rgba(255,0,0,1),rgba(255,165,0,1)); 
-  background: linear-gradient(to right, rgba(255,0,0,1), rgba(255,165,0,1)); 
-}
-.wText {
-	color:white;
-	
-}
+		background: red; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(left,rgba(255,0,0,1),rgba(255,165,0,1));
+		background: -o-linear-gradient(right,rgba(255,0,0,1),rgba(255,165,0,1)); 
+		background: -moz-linear-gradient(right,rgba(255,0,0,1),rgba(255,165,0,1)); 
+		background: linear-gradient(to right, rgba(255,0,0,1), rgba(255,165,0,1)); 
+	}
 
+.wText {
+		color:white;
+		}
 
 h1, h2, h3, h4 {
 	color: white;file:///C:/Users/Edward/Final.Project/Images/head4.jpg
-	
 	}
 	
 	p{
-			color: white;
-			
-			
+			color: white;	
 	}
-
-
 
 ul {
 	text-align: center;
@@ -46,29 +39,25 @@ ul {
     background-color: #white;
 	display: inline-block;
 	list-style-type: none;
-
-
 }
-
 
 li {
 	display:inline-block;
   color:white;
 	    border-right: 1px solid #bbb;
 }
+
 li:last-child {
     border-right: none;
+	float:left;
 }
-
-
 
 a {
     display: block;
     padding: 10px;
     background-color: red;
 	color: white;
-	float:left;
-		
+	float:left;	
 }
 
 /* Change the link color when hovering */
@@ -121,20 +110,21 @@ button {
     width: 100%;
 }
 
-
-
 /* Add padding to container elements */
 .container {
     padding: 16px;
 	color:white;
 }
 
-
 /* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
    .signupbtn {
         width: 100%;
     }
+}
+
+div.float img {
+	float:right;
 }
 
 
