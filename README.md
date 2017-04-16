@@ -6,6 +6,7 @@ I start to think around many different ideas on how I could style the website an
 Verison One 
 I start by creating three pages, Home Page, Photos and a Video. Creating these were my starting point to get the sytle I wanted. I start to get the Nav Bar sorted, and easy to click on the page you would like.
 Then I added in the nav bar Sign up and log in but didnt create the pages, as I wanted to come back to this. 
+
 Verison Two
 I decide to change my Video.html to a band.html, mainly because I need to have my information on the page and make more inactive. 
 The video was still on the page but near the bottom. 
